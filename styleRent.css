@@ -3,15 +3,42 @@
     padding: 0;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+    background: #ffffff;
+}
+
 .head {
     position: relative;
+    display: flex;
     width: auto;
     height: 99px;
     background: #222222;
+    color: #ffffff;
 }
 
 .logo {
-    position: absolute;
+    padding-left: 157px;
+    padding-top: 26px;
     left: 157px;
     top: 26px;
+}
+
+.navigationHead {
+    position: absolute;
+    font-size: 16px;
+    left: 45.16%;
+    top: 47.47%;
+    width: 498px;
+    height: 19px;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.navigationHead>ul>li:nth-child(1n+2) {
+    margin-left: 56px;
 }
