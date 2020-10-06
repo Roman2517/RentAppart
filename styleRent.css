@@ -63,3 +63,47 @@ nav>ul {
     padding-left: 70.2px;
     padding-top: 42.3px;
 }
+
+.bannerRent {
+    position: relative;
+    background: url(matRent/couch-1835923_1920\ 1.png);
+    background-repeat: no-repeat;
+    height: 872px;
+}
+
+.bannerRent::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #222222;
+    opacity: 0.5;
+    height: 872px;
+}
+
+.bannerText {
+    /* font-size: 64px;
+    font-weight: 400; */
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 3;
+    color: #ffffff;
+    width: 578.7px;
+    height: 231px;
+    top: 193px;
+    left: 407.7px;
+}
+
+.bannerText>span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bannerText>p {
+    font-size: 18px;
+    font-weight: 300;
+}
