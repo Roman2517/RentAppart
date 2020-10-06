@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    position: relative;
+    width: auto;
+    height: 99px;
+    background: #222222;
+}
+
+.logo {
+    position: absolute;
+    left: 157px;
+    top: 26px;
+}
