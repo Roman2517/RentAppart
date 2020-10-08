@@ -60,7 +60,7 @@ nav>ul {
 }
 
 .mailLogo {
-    padding-left: 70.2px;
+    padding-left: 35px;
     padding-top: 42.3px;
 }
 
@@ -85,25 +85,96 @@ nav>ul {
 }
 
 .bannerText {
-    /* font-size: 64px;
-    font-weight: 400; */
-    display: flex;
-    flex-wrap: wrap;
     position: absolute;
     z-index: 3;
     color: #ffffff;
-    width: 578.7px;
+    width: 643px;
     height: 231px;
     top: 193px;
     left: 407.7px;
 }
 
+.bannerText>h1 {
+    position: relative;
+    font-size: 64px;
+    font-weight: 400;
+}
+
 .bannerText>span {
+    position: absolute;
+    right: 5px;
+    margin-top: 5px;
+    height: 28px;
     font-size: 24px;
     font-weight: 400;
 }
 
 .bannerText>p {
+    margin-bottom: 18px;
+    width: 527px;
     font-size: 18px;
     font-weight: 300;
+    line-height: 21px;
 }
+
+.bannerText>p:nth-child(odd) {
+    padding-top: 51px;
+}
+
+.buttonBanner {
+    position: absolute;
+    top: 485px;
+    left: 429.3px;
+    z-index: 3;
+    width: 285px;
+    height: 67px;
+    background-color: #ffa724;
+    border: #ffa724 1px solid;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bronItem {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* Modal Window */
+
+.openModalWindow {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    /* Анимация перехода */
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    /* анимация перехода */
+}
+
+.openModalWindow:target {
+    background: #000000;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalWind {
+    position: relative;
+    background: #ffffff;
+    width: 525px;
+    height: 656px;
+    margin: 30px auto;
+    border-radius: 50px;
+}
+
+.modalContent {}
