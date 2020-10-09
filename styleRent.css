@@ -177,5 +177,27 @@ nav>ul {
     width: 525px;
     height: 656px;
     margin: 30px auto;
-    border-radius: 50px;
+    border-radius: 20px;
+}
+
+.buttonClose {
+    position: relative;
+    width: 12px;
+    height: 13px;
+    top: 33px;
+    left: 478px;
+}
+
+.modalHead {
+    position: relative;
+    width: 272px;
+    height: 107px;
+    top: 58px;
+    left: 121px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.modalHead>h3 {
+    font-weight: 300;
 }
