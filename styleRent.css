@@ -163,9 +163,12 @@ nav>ul {
 }
 
 .openModalWindow:target {
-    background: #000000;
     opacity: 1;
     pointer-events: auto;
+}
+
+.modalContent {
+    background: #000000;
 }
 
 .modalWind {
@@ -176,5 +179,3 @@ nav>ul {
     margin: 30px auto;
     border-radius: 50px;
 }
-
-.modalContent {}
