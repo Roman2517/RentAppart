@@ -189,15 +189,52 @@ nav>ul {
 }
 
 .modalHead {
-    position: relative;
+    /* position: relative; */
     width: 272px;
-    height: 107px;
-    top: 58px;
-    left: 121px;
+    max-height: 107px;
+    margin-top: 58px;
+    margin-left: 121px;
     font-weight: 400;
     text-align: center;
 }
 
 .modalHead>h3 {
     font-weight: 300;
+}
+
+.inputForm {
+    margin: 35px 101.5px;
+    width: 318px;
+}
+
+.inputPole {
+    width: 318px;
+    height: 35px;
+    border: #FFA724 1px solid;
+    border-radius: 4px;
+    padding-left: 14px;
+}
+
+.inputPole:nth-child(1n+2) {
+    margin-top: 22px;
+}
+
+
+/* Ниже свойство скрывает дд.мм.гггг из поля ввода с датой */
+
+
+/* input[type="date"]::before {
+    content: attr(data-placeholder);
+    width: 100%;
+} */
+
+.submitButton {
+    margin: 35px 101.5px 54px 101.5px;
+    width: 334px;
+    height: 69px;
+    border: #FFA724 1px solid;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    background: #FFA724;
 }
