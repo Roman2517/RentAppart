@@ -238,3 +238,11 @@ nav>ul {
     font-weight: 400;
     background: #FFA724;
 }
+
+.mapRent {
+    position: relative;
+}
+
+.mapRentImg {
+    width: 100%;
+}
