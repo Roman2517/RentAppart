@@ -45,51 +45,57 @@
             </a>
         </div>
     </header>
-    <div class="bannerRent">
-        <div class="bannerText">
-            <h1>Квартиры в Улан-Удэ
-            </h1>
-            <span>посуточно</span>
-            <p>Ищете квартиру в столице Бурятии?
-                <br> На нашем сайте подобраны лучшие варианты съемного жилья </p>
-            <p>Вы можете забронировать квартиру онлайн <br> и наш менеджер тут же с вами свяжется</p>
-        </div>
-        <button type="button" class="buttonBanner">
+    <main>
+        <div class="bannerRent">
+            <div class="bannerText">
+                <h1>Квартиры в Улан-Удэ
+                </h1>
+                <span>посуточно</span>
+                <p>Ищете квартиру в столице Бурятии?
+                    <br> На нашем сайте подобраны лучшие варианты съемного жилья </p>
+                <p>Вы можете забронировать квартиру онлайн <br> и наш менеджер тут же с вами свяжется</p>
+            </div>
+            <button type="button" class="buttonBanner">
             <a href="#openModal" class="bronItem">Забронировать</a>
         </button>
-        <!-- Modal Window -->
-        <div class="openModalWindow" id="openModal">
-            <div class="modalContent"></div>
-            <div class="modalWind">
-                <div class="buttonClose">
-                    <a href="#close" title="Close" class="close">
-                        <img src="matRent/closeButton.svg" alt="X">
-                    </a>
+            <!-- Modal Window -->
+            <div class="openModalWindow" id="openModal">
+                <div class="modalContent"></div>
+                <div class="modalWind">
+                    <div class="buttonClose">
+                        <a href="#close" title="Close" class="close">
+                            <img src="matRent/closeButton.svg" alt="X">
+                        </a>
+                    </div>
+                    <div class="modalHead">
+                        <h1>Оставить заявку</h1>
+                        <h3>И наш менеджер позвонит</br> Вам в течение 15 минут</h3>
+                    </div>
+                    <div class="inputForm">
+                        <input type="text" class="inputPole" placeholder="Ваше имя" name="name">
+                        <input type="tel" class="inputPole" placeholder="Номер телефона" name="phone">
+                        <input type="text" class="inputPole" placeholder="Адрес желаемой квартиры" name="adress">
+                        <input type="date" class="inputPole" placeholder="Дата въезда" name="dateOfEntry">
+                        <input type="date" class="inputPole" placeholder="Дата выезда" name="dateOfExit">
+                    </div>
+                    <input type="submit" class="submitButton" name="submitButton">
                 </div>
-                <div class="modalHead">
-                    <h1>Оставить заявку</h1>
-                    <h3>И наш менеджер позвонит</br> Вам в течение 15 минут</h3>
-                </div>
-                <div class="inputForm">
-                    <input type="text" class="inputPole" placeholder="Ваше имя" name="name">
-                    <input type="tel" class="inputPole" placeholder="Номер телефона" name="phone">
-                    <input type="text" class="inputPole" placeholder="Адрес желаемой квартиры" name="adress">
-                    <input type="date" class="inputPole" placeholder="Дата въезда" name="dateOfEntry">
-                    <input type="date" class="inputPole" placeholder="Дата выезда" name="dateOfExit">
-                </div>
-                <input type="submit" class="submitButton" name="submitButton">
+                <div id="close"></div>
             </div>
-            <div id="close"></div>
+            <!-- End Modal Window -->
         </div>
-        <!-- End Modal Window -->
-    </div>
-    <div class="mapRent">
-        <!-- <img src="matRent/mapRent.png" alt="map" class="mapRentImg" usemap="#mapRentNavi"> -->
-        <div class="markerGroup">
-            <div class="mapMarker" id="marker_1"></div>
+        <div class="mapRent">
+            <!-- Продумать как реализовать карту ренты -->
+            <div class="markerGroup">
+                <div class="mapMarker" id="marker_1"></div>
+            </div>
+            </map>
         </div>
-        </map>
-    </div>
+        <!-- Карточки квартир в теге 
+            <section>
+                <article>Карточка</article>
+            </section> -->
+    </main>
 </body>
 
 </html>

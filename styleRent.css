@@ -249,16 +249,16 @@ nav>ul {
 
 .markerGroup {
     position: absolute;
-    margin: 140px 667px;
+    margin: 140px 742px;
     width: 420.3px;
     height: 275px;
 }
 
 .mapMarker {
     position: absolute;
-    background: url(matRent/mapMarker.svg);
-    width: 17px;
-    height: 25px;
-    top: 0;
-    left: 17px;
+    background: url(matRent/mapMarkerGroup.svg);
+    width: 100%;
+    height: 100%;
+    /* top: 0;
+    left: 17px; */
 }
