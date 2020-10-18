@@ -143,25 +143,6 @@ nav>ul {
 
 /* Modal Window */
 
-.openModalWindow {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 10;
-    opacity: 0;
-    pointer-events: none;
-    margin: 0;
-    padding: 0;
-    /* Анимация перехода */
-    -webkit-transition: opacity 200ms ease-in;
-    -moz-transition: opacity 200ms ease-in;
-    transition: opacity 200ms ease-in;
-    /* анимация перехода */
-}
-
 .openModalWindow:target {
     opacity: 1;
     pointer-events: auto;
@@ -217,6 +198,25 @@ nav>ul {
 
 .inputPole:nth-child(1n+2) {
     margin-top: 22px;
+}
+
+.openModalWindow {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    /* Анимация перехода */
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    /* анимация перехода */
 }
 
 
