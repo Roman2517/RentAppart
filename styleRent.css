@@ -1,227 +1,229 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    background: #ffffff;
+  font-family: Roboto, sans-serif;
+  background: #ffffff;
 }
 
 .head {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    height: 99px;
-    background: #222222;
-    color: #ffffff;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  min-height: 99px;
+  background: #222222;
+  color: #ffffff;
 }
 
 .logo {
-    padding-left: 141.3px;
-    padding-top: 26px;
+  padding: 26px 141px;
 }
 
 .navigationHead {
-    padding-left: 593px;
-    padding-top: 42.3px;
-    font-size: 16px;
-    width: 498px;
-    height: 19px;
+  /* padding-left: auto; */
+  padding-top: 42.3px;
+  font-size: 16px;
+  width: 498px;
+  height: 19px;
 }
 
 nav>ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+  height: 100%;
 }
 
 .navigationHead>ul>li:nth-child(1n+2) {
-    margin-left: 49.4px;
+  margin-left: 49.4px;
 }
 
 .link_head {
-    text-decoration: none;
-    color: #ffffff;
-    line-height: 19px;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 19px;
+}
+
+.contacts{
+  display: flex;
 }
 
 .whatsAppLogo {
-    padding-left: 108.9px;
-    padding-top: 44.5px;
-    width: 13px;
-    height: 13px;
+  
+  padding-top: 44.5px;
+  width: 13px;
+  height: 13px;
 }
 
 .phoneNumber {
-    padding-left: 27.9px;
-    padding-top: 42.3px;
+  padding-left: 27.9px;
+  padding-top: 42.3px;
 }
 
 .mailLogo {
-    padding-left: 35px;
-    padding-top: 42.3px;
+  padding-left: 35px;
+  padding-top: 42.3px;
 }
 
 .bannerRent {
-    position: relative;
-    background: url(matRent/couch-1835923_1920\ 1.png);
-    background-repeat: no-repeat;
-    height: 872px;
+  position: relative;
+  background: url(matRent/couch-1835923_1920\ 1.png);
+  background-repeat: no-repeat;
+  height: 872px;
 }
 
 .bannerRent::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    background-color: #222222;
-    opacity: 0.5;
-    height: 872px;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #222222;
+  opacity: 0.5;
+  height: 872px;
 }
 
 .bannerText {
-    position: absolute;
-    z-index: 3;
-    color: #ffffff;
-    width: 643px;
-    height: 231px;
-    top: 193px;
-    left: 407.7px;
+  position: absolute;
+  z-index: 3;
+  color: #ffffff;
+  width: 643px;
+  height: 231px;
+  top: 193px;
+  left: 407.7px;
 }
 
 .bannerText>h1 {
-    position: relative;
-    font-size: 64px;
-    font-weight: 400;
+  position: relative;
+  font-size: 64px;
+  font-weight: 400;
 }
 
 .bannerText>span {
-    position: absolute;
-    right: 5px;
-    margin-top: 5px;
-    height: 28px;
-    font-size: 24px;
-    font-weight: 400;
+  position: absolute;
+  right: 5px;
+  margin-top: 5px;
+  height: 28px;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .bannerText>p {
-    margin-bottom: 18px;
-    width: 527px;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 21px;
+  margin-bottom: 18px;
+  width: 527px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
 }
 
 .bannerText>p:nth-child(odd) {
-    padding-top: 51px;
+  padding-top: 51px;
 }
 
 .buttonBanner {
-    position: absolute;
-    top: 485px;
-    left: 429.3px;
-    z-index: 3;
-    width: 285px;
-    height: 67px;
-    background-color: #ffa724;
-    border: #ffa724 1px solid;
-    border-radius: 10px;
-    font-size: 24px;
-    font-weight: 400;
+  position: absolute;
+  top: 485px;
+  left: 429.3px;
+  z-index: 3;
+  width: 285px;
+  height: 67px;
+  background-color: #ffa724;
+  border: #ffa724 1px solid;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .bronItem {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
-
 
 /* Modal Window */
 
 .openModalWindow:target {
-    opacity: 1;
-    pointer-events: auto;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .modalContent {
-    background: #000000;
+  background: #000000;
 }
 
 .modalWind {
-    position: relative;
-    background: #ffffff;
-    width: 525px;
-    height: 656px;
-    margin: 30px auto;
-    border-radius: 20px;
+  position: relative;
+  background: #ffffff;
+  width: 525px;
+  height: 656px;
+  margin: 30px auto;
+  border-radius: 20px;
 }
 
 .buttonClose {
-    position: relative;
-    width: 12px;
-    height: 13px;
-    top: 33px;
-    left: 478px;
+  position: relative;
+  width: 12px;
+  height: 13px;
+  top: 33px;
+  left: 478px;
 }
 
 .modalHead {
-    /* position: relative; */
-    width: 272px;
-    max-height: 107px;
-    margin-top: 58px;
-    margin-left: 121px;
-    font-weight: 400;
-    text-align: center;
+  /* position: relative; */
+  width: 272px;
+  max-height: 107px;
+  margin-top: 58px;
+  margin-left: 121px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .modalHead>h3 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .inputForm {
-    margin: 35px 101.5px;
-    width: 318px;
+  margin: 35px 101.5px;
+  width: 318px;
 }
 
 .inputPole {
-    width: 318px;
-    height: 35px;
-    border: #FFA724 1px solid;
-    border-radius: 4px;
-    padding-left: 14px;
+  width: 318px;
+  height: 35px;
+  border: #FFA724 1px solid;
+  border-radius: 4px;
+  padding-left: 14px;
 }
 
 .inputPole:nth-child(1n+2) {
-    margin-top: 22px;
+  margin-top: 22px;
 }
 
 .openModalWindow {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 10;
-    opacity: 0;
-    pointer-events: none;
-    margin: 0;
-    padding: 0;
-    /* Анимация перехода */
-    -webkit-transition: opacity 200ms ease-in;
-    -moz-transition: opacity 200ms ease-in;
-    transition: opacity 200ms ease-in;
-    /* анимация перехода */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  opacity: 0;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  /* Анимация перехода */
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  /* анимация перехода */
 }
 
-
 /* Ниже свойство скрывает дд.мм.гггг из поля ввода с датой */
-
 
 /* input[type="date"]::before {
     content: attr(data-placeholder);
@@ -229,36 +231,36 @@ nav>ul {
 } */
 
 .submitButton {
-    margin: 35px 101.5px 54px 101.5px;
-    width: 334px;
-    height: 69px;
-    border: #FFA724 1px solid;
-    border-radius: 10px;
-    font-size: 24px;
-    font-weight: 400;
-    background: #FFA724;
+  margin: 35px 101.5px 54px 101.5px;
+  width: 334px;
+  height: 69px;
+  border: #FFA724 1px solid;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  background: #FFA724;
 }
 
 .mapRent {
-    position: relative;
-    background: url(matRent/mapRent.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 563px;
+  position: relative;
+  background: url(matRent/mapRent.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 563px;
 }
 
 .markerGroup {
-    position: absolute;
-    margin: 140px 742px;
-    width: 420.3px;
-    height: 275px;
+  position: absolute;
+  margin: 140px 742px;
+  width: 420.3px;
+  height: 275px;
 }
 
 .mapMarker {
-    position: absolute;
-    background: url(matRent/mapMarkerGroup.svg);
-    width: 100%;
-    height: 100%;
-    /* top: 0;
+  position: absolute;
+  background: url(matRent/mapMarkerGroup.svg);
+  width: 100%;
+  height: 100%;
+  /* top: 0;
     left: 17px; */
 }
