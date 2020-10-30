@@ -96,21 +96,23 @@ nav>ul {
   z-index: 1;
 }
 
-.bannerText>h1 {
+.header-text-banner {
+  text-align: right;
+}
+
+.header-text-banner>h1 {
   font-size: 64px;
   font-weight: 400;
 }
 
-.bannerText>span {
-  position: absolute;
-  right: 5px;
+.header-text-banner>span {
   font-size: 24px;
   text-align: right;
 }
 
 .bannerText>p {
   margin-bottom: 18px;
-  width: 527px;
+  width: 100%;
   font-size: 18px;
   font-weight: 300;
   line-height: 21px;
@@ -227,7 +229,7 @@ nav>ul {
   background: #FFA724;
 }
 
-.mapRent {
+/* .mapRent {
   position: relative;
   background: url(matRent/mapRent.png);
   background-repeat: no-repeat;
@@ -249,4 +251,7 @@ nav>ul {
   height: 100%;
   /* top: 0;
     left: 17px; */
+
 }
+
+*/
