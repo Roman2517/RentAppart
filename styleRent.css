@@ -9,10 +9,10 @@ body {
 }
 
 .head {
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
-  width: auto;
+  width: 100%;
   min-height: 99px;
   background: #222222;
   color: #ffffff;
@@ -52,6 +52,7 @@ nav>ul {
 
 .contacts {
   display: flex;
+  align-items: center;
 }
 
 .whatsAppLogo {
@@ -74,63 +75,67 @@ nav>ul {
   position: relative;
   background: url(matRent/couch-1835923_1920\ 1.png);
   background-repeat: no-repeat;
-  height: 872px;
+  background-size: 100%;
+  width: auto;
+  /* height: 800px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top:150px;
+  padding-bottom: 320px;
 }
 
-.bannerRent::after {
+/* .bannerRent::after {
   content: '';
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   background-color: #222222;
+  background-size: contain;
   opacity: 0.5;
-  height: 872px;
-}
+  height: auto;
+} */
 
 .bannerText {
-  position: absolute;
-  z-index: 3;
   color: #ffffff;
-  width: 643px;
-  height: 231px;
-  top: 193px;
-  left: 407.7px;
+  text-align: justify;
 }
 
-.bannerText>h1 {
+/* .bannerText>h1 {
   position: relative;
   font-size: 64px;
   font-weight: 400;
-}
+} */
 
-.bannerText>span {
+/* .bannerText>span {
   position: absolute;
   right: 5px;
   margin-top: 5px;
   height: 28px;
   font-size: 24px;
   font-weight: 400;
-}
+} */
 
-.bannerText>p {
+/* .bannerText>p {
   margin-bottom: 18px;
   width: 527px;
   font-size: 18px;
   font-weight: 300;
   line-height: 21px;
-}
+} */
 
-.bannerText>p:nth-child(odd) {
+/* .bannerText>p:nth-child(odd) {
   padding-top: 51px;
-}
+} */
 
 .buttonBanner {
-  position: absolute;
+  /* position: absolute;
   top: 485px;
-  left: 429.3px;
+  left: 429.3px; */
   z-index: 3;
   width: 285px;
   height: 67px;
