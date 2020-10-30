@@ -16,18 +16,20 @@ body {
   min-height: 99px;
   background: #222222;
   color: #ffffff;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .logo {
-  padding: 26px 141px;
+  /* padding: 26px 141px; */
 }
 
 .navigationHead {
   /* padding-left: auto; */
-  padding-top: 42.3px;
+  /* padding-top: 42.3px; */
   font-size: 16px;
   width: 498px;
-  height: 19px;
+  /* height: 19px; */
 }
 
 nav>ul {
@@ -48,25 +50,24 @@ nav>ul {
   line-height: 19px;
 }
 
-.contacts{
+.contacts {
   display: flex;
 }
 
 .whatsAppLogo {
-  
-  padding-top: 44.5px;
+  /* padding-top: 44.5px; */
   width: 13px;
   height: 13px;
 }
 
 .phoneNumber {
   padding-left: 27.9px;
-  padding-top: 42.3px;
+  /* padding-top: 42.3px; */
 }
 
 .mailLogo {
   padding-left: 35px;
-  padding-top: 42.3px;
+  /* padding-top: 42.3px; */
 }
 
 .bannerRent {
