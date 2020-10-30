@@ -9,7 +9,6 @@ body {
 }
 
 .head {
-  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -20,16 +19,11 @@ body {
   justify-content: space-around;
 }
 
-.logo {
-  /* padding: 26px 141px; */
-}
+.logo {}
 
 .navigationHead {
-  /* padding-left: auto; */
-  /* padding-top: 42.3px; */
   font-size: 16px;
   width: 498px;
-  /* height: 19px; */
 }
 
 nav>ul {
@@ -56,86 +50,79 @@ nav>ul {
 }
 
 .whatsAppLogo {
-  /* padding-top: 44.5px; */
   width: 13px;
   height: 13px;
 }
 
 .phoneNumber {
   padding-left: 27.9px;
-  /* padding-top: 42.3px; */
 }
 
 .mailLogo {
   padding-left: 35px;
-  /* padding-top: 42.3px; */
 }
 
 .bannerRent {
   position: relative;
   background: url(matRent/couch-1835923_1920\ 1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: auto;
-  /* height: 800px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top:150px;
+  padding-top: 150px;
+  box-sizing: border-box;
   padding-bottom: 320px;
 }
 
-/* .bannerRent::after {
+.bannerRent::after {
   content: '';
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 3;
   background-color: #222222;
-  background-size: contain;
+  background-size: 100%;
   opacity: 0.5;
-  height: auto;
-} */
-
-.bannerText {
-  color: #ffffff;
-  text-align: justify;
 }
 
-/* .bannerText>h1 {
+.bannerText {
   position: relative;
+  color: #ffffff;
+  text-align: justify;
+  z-index: 1;
+}
+
+.bannerText>h1 {
   font-size: 64px;
   font-weight: 400;
-} */
+}
 
-/* .bannerText>span {
+.bannerText>span {
+  /* margin-top: 5px;
+  height: 28px; */
   position: absolute;
   right: 5px;
-  margin-top: 5px;
-  height: 28px;
   font-size: 24px;
-  font-weight: 400;
-} */
+  text-align: right;
+}
 
-/* .bannerText>p {
+.bannerText>p {
   margin-bottom: 18px;
   width: 527px;
   font-size: 18px;
   font-weight: 300;
   line-height: 21px;
-} */
+}
 
 /* .bannerText>p:nth-child(odd) {
   padding-top: 51px;
 } */
 
 .buttonBanner {
-  /* position: absolute;
-  top: 485px;
-  left: 429.3px; */
   z-index: 3;
   width: 285px;
   height: 67px;
