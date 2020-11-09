@@ -244,3 +244,31 @@ nav>ul {
   width: 467px;
   height: 275px;
 }
+
+.list-navigation-in-flat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 36px auto;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.list-navigation-in-flat ul {
+  flex-direction: row;
+}
+
+.list-navigation-in-flat li {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  list-style-type: none;
+  border: 2px solid #000000;
+  padding: 15px 56px;
+}
+
+.list-navigation-in-flat a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
